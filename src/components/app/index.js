@@ -4,9 +4,10 @@ import Login from "../../routes/login";
 import Sidebar from "../sidebar";
 import Home from "../../routes/home";
 import Footer from "../footer";
-import PaginacaoTabela from "../paginacao-tabela";
 import Calendario from "../../routes/calendario";
 import Navbar from "../navbar";
+import DetalhesConsulta from "../../routes/detalhes-consulta";
+import Gerenciamento from "../../routes/gerenciamento";
 
 class App extends Component {
   render() {
@@ -19,6 +20,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/calendario" component={Calendario} />
+            <Route exact path="/detalhes-da-consulta" component={DetalhesConsulta} />
+            <Route exact path="/gerenciamento" component={Gerenciamento} />
           </Switch>
           <Route path="/" component={Footer} />
         </section>

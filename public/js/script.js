@@ -254,3 +254,11 @@ $(".js-file-link").on('click', function (e) {
 });
 
 //document.getElementById("imgChooser").addEventListener("change", readImage, false);
+
+
+$(".js-add-prescricao").click(function(){
+    $("#addPrescricao").show()
+});
+$(".js-add-lembrete").click(function(){
+    $("#addLembrete").show()
+});

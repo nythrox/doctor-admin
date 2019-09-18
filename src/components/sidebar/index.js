@@ -5,9 +5,12 @@ import ModalMedico from '../modal-medico';
 import ModalClinica from '../modal-clinica';
 import ModalCadastrarConsulta from '../modal-cadastrar-consultas';
 import ModalDadosContato from '../modal-dados-contato';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Sidebar extends Component {
 
-    
+  componentDidMount(){
+    console.log("rendered")
+  }
 
     render(){
         return (
@@ -15,9 +18,9 @@ class Sidebar extends Component {
               <div className="sidebar-nav">
                 {/* top */}
                 <div className="box-logo">
-                  <a href="dashboard.php"><img className="img-responsive logo-toggle" src={LogoResponsive} alt="Logo" /></a>
+                  <Link to="/"><img className="img-responsive logo-toggle" src={LogoResponsive} alt="Logo" /></Link>
                   <div className="logo-int">
-                    <a href="home.php"><img className="img-responsive" src={Logo}alt="" /></a>
+                    <Link to="/"><img className="img-responsive" src={Logo}alt="" /></Link>
                     <div className="title">
                       <p>Sistema de Gerenciamento</p>
                     </div>
@@ -43,21 +46,21 @@ class Sidebar extends Component {
                       <a href="/#" className="dropdown-toggle" data-toggle="dropdown"><i className="fa fa-caret-right" />Front Antigo</a>
                       <ul className="dropdown-menu" role="menu">
                         <li><a href="index.php">Login</a></li>
-                        <li><a href="home.php">Home</a></li>
-                        <li><a href="calendario.php">Calendário</a></li>
-                        <li><a href="detalhes-da-consulta.php">Detalhes da Consulta</a></li>
-                        <li><a href="gerenciamentos.php">Gerenciamento</a></li>
-                        <li><a href="usuarios.php">Usuários</a></li>
-                        <li><a href="quem-somos.php">Quem Somos</a></li>
-                        <li><a href="noticias.php">Notícias</a></li>
-                        <li><a href="tipos-de-tratamento.php">Tipos de Tratamento</a></li>
-                        <li><a href="tour.php">Tour</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/calendario/">Calendário</Link></li>
+                        <li><Link to="/detalhes-da-consulta/">Detalhes da Consulta</Link></li>
+                        <li><Link to="/gerenciamento/">Gerenciamento</Link></li>
+                        <li><Link to="/usuarios/">Usuários</Link></li>
+                        <li><Link to="/quem-somos/">Quem Somos</Link></li>
+                        <li><Link to="/noticias/">Notícias</Link></li>
+                        <li><Link to="/tipos-de-tratamento/">Tipos de Tratamento</Link></li>
+                        <li><Link to="/tour/">Tour</Link></li>
                         <li><a href="#!" data-fancybox data-src="#modalDadosContato">Dados de Contato *modal</a></li>
                         <li><a href="#!" data-fancybox data-src="#modalCadastrarConsultas">Cadastrar Consultas *modal</a></li>
                         <li><a href="#!" data-fancybox data-src="#modalClinica">Clínica *modal</a></li>
                         <li><a href="#!" data-fancybox data-src="#modalMedico">Médico *modal</a></li>
-                        <li><a href="chat.php">Chat</a></li>
-                        <li><a href="template.php">Template</a></li>
+                        <li><Link to="/chat/">Chat</Link></li>
+                        <li><Link to="/template/">Template</Link></li>
                       </ul>
                     </li>
                     <li className="dropdown">

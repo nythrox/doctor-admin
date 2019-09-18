@@ -34,14 +34,14 @@ class ModalMedico extends Component {
                       </div>
                       <div className="col-xs-12 col-sm-3">
                         <label>Dia da semana</label>
-                        <select name id className="form-control">
-                          <option value>...</option>
-                          <option value>Segunda</option>
-                          <option value>Terça</option>
-                          <option value>Quarta</option>
-                          <option value>Quinta</option>
-                          <option value>Sexta</option>
-                          <option value>Sábado</option>
+                        <select name="" id="" className="form-control">
+                          <option value="">...</option>
+                          <option value="">Segunda</option>
+                          <option value="">Terça</option>
+                          <option value="">Quarta</option>
+                          <option value="">Quinta</option>
+                          <option value="">Sexta</option>
+                          <option value="">Sábado</option>
                         </select>
                       </div>
                       <div className="col-xs-12 col-sm-2">
