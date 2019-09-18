@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PaginacaoTabela from '../../components/paginacao-tabela';
+import Breadcrumbs from '../../components/breadcrumbs';
 class Home extends Component {
 
     render(){
@@ -9,7 +11,7 @@ class Home extends Component {
         <div className="row">
           <div className="col-xs-12">
             {/* breadcrumb */}
-            {/*?php require_once 'assets/includes/inc-breadcrumb.php'; ?*/}
+            <Breadcrumbs/>
             <div className="title title flex-space no-flex-md">
               <h1>Título da página</h1>
             </div>
@@ -128,6 +130,7 @@ class Home extends Component {
               </table>
             </form>
             {/* Paginação */}
+            <PaginacaoTabela/>
             {/*?php require_once 'assets/includes/inc-paginacao-tabela.php'; ?*/}
           </div>
         </div>
