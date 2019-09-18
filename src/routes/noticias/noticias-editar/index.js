@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import DemoCrop from '../../assets/img/img-demo-crop.jpg';
-import Breadcrumbs from '../../components/breadcrumbs';
+import DemoCrop from '../../../assets/img/img-demo-crop.jpg';
+import Breadcrumbs from '../../../components/breadcrumbs';
 class NoticiasEditar extends Component {
 
     render(){

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Logo from '../../assets/img/logo-cliente.png';
 import LogoResponsive from '../../assets/img/logo-icon.png';
-import ModalMedico from '../modal-medico';
-import ModalClinica from '../modal-clinica';
-import ModalCadastrarConsulta from '../modal-cadastrar-consultas';
-import ModalDadosContato from '../modal-dados-contato';
+import ModalMedico from '../modals/modal-medico';
+import ModalClinica from '../modals/modal-clinica';
+import ModalCadastrarConsulta from '../modals/modal-cadastrar-consultas';
+import ModalDadosContato from '../modals/modal-dados-contato';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Sidebar extends Component {
 

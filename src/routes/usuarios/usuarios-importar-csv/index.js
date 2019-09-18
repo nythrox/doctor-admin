@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Breadcrumbs from '../../components/breadcrumbs';
+import Breadcrumbs from '../../../components/breadcrumbs';
 class UsuariosImportarCsv extends Component {
 
     render(){

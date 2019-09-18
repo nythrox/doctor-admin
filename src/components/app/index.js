@@ -8,13 +8,21 @@ import Calendario from "../../routes/calendario";
 import Navbar from "../navbar";
 import DetalhesConsulta from "../../routes/detalhes-consulta";
 import Gerenciamento from "../../routes/gerenciamento";
-import Usuarios from "../../routes/usuarios";
-import UsuariosEditar from "../../routes/usuarios-editar";
-import UsuariosImportarCsv from "../../routes/usuarios-importar-csv";
-import UsuariosImportarCsv2 from "../../routes/usuarios-importar-csv-2";
+import Usuarios from "../../routes/usuarios/usuarios";
+import UsuariosEditar from "../../routes/usuarios/usuarios-editar";
+import UsuariosImportarCsv from "../../routes/usuarios/usuarios-importar-csv";
+import UsuariosImportarCsv2 from "../../routes/usuarios/usuarios-importar-csv-int";
 import QuemSomos from "../../routes/quem-somos";
-import Noticias from "../../routes/noticias";
-import NoticiasEditar from "../../routes/noticias-editar";
+import Noticias from "../../routes/noticias/noticias";
+import NoticiasEditar from "../../routes/noticias/noticias-editar";
+import Tour from "../../routes/tour/tour";
+import TourEditar from "../../routes/tour/tour-editar";
+import Template from "../../routes/template/template";
+import TemplateEditar from "../../routes/template/template-editar";
+import Chat from "../../routes/chat/chat";
+import ChatInt from "../../routes/chat/chat-int";
+import TiposDeTratamento from "../../routes/tipos-de-tratamento/tipos-de-tratamento";
+import TiposDeTratamentoEditar from "../../routes/tipos-de-tratamento/tipos-de-tratamento-editar";
 
 class App extends Component {
   render() {
@@ -36,6 +44,14 @@ class App extends Component {
             <Route exact path="/quem-somos" component={QuemSomos} />
             <Route exact path="/noticias" component={Noticias} />
             <Route exact path="/noticias-editar" component={NoticiasEditar} />
+            <Route exact path="/tour" component={Tour} />
+            <Route exact path="/tour-editar" component={TourEditar} />
+            <Route exact path="/tipos-de-tratamento" component={TiposDeTratamento} />
+            <Route exact path="/tipos-de-tratamento-editar" component={TiposDeTratamentoEditar} />
+            <Route exact path="/template" component={Template} />
+            <Route exact path="/template-editar" component={TemplateEditar} />
+            <Route exact path="/chat" component={Chat} />
+            <Route exact path="/chat-int" component={ChatInt} />
           </Switch>
           <Route path="/" component={Footer} />
         </section>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Breadcrumbs from '../../components/breadcrumbs';
-class UsuariosImportarCsv2 extends Component {
+import Breadcrumbs from '../../../components/breadcrumbs';
+class UsuariosImportarCsvInt extends Component {
 
     render(){
         return(
@@ -175,4 +175,4 @@ class UsuariosImportarCsv2 extends Component {
           );
     }
 }
-export default UsuariosImportarCsv2;
+export default UsuariosImportarCsvInt;
