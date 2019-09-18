@@ -1,23 +1,24 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Login from "../../routes/login";
 import Sidebar from "../sidebar";
+import Home from "../home";
+import Footer from "../footer";
 
-function App() {
-  return (
-    <Router>     
-
-      {/* path / will be error 404 */}
-      {/* override path / with homepage (if logged in) else with login page */}
-
-      <Route path="/login" exact component={Login} />
-    <section class="wrapper active">
-      <Route path="/" exact component={Sidebar} />
-      </section>
-      {/* <Route path="/" exact component={Login} /> */}
-    </Router>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Route path="/login" exact component={Login} />
+        <section class="wrapper active">
+          <Route exact path="/" component={Sidebar} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Footer} />
+        </section>
+        {/* <Route path="/" exact component={Login} /> */}
+      </Router>
+    );
+  }
 }
 
 export default App;

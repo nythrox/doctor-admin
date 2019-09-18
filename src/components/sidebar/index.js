@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Logo from '../../assets/img/logo-cliente.png';
 import LogoResponsive from '../../assets/img/logo-icon.png';
+import ModalMedico from '../modal-medico';
+import ModalClinica from '../modal-clinica';
+import ModalCadastrarConsulta from '../modal-cadastrar-consultas';
+import ModalDadosContato from '../modal-dados-contato';
 class Sidebar extends Component {
 
     
@@ -88,8 +92,12 @@ class Sidebar extends Component {
                   </ul>
                 </div>
                 {/* abrir/fechar */}
-                <a id="menu-toggle" href="/#" />
+                <a id="menu-toggle" href="#!"/>
               </div>
+              <ModalMedico/>
+              <ModalClinica/>
+              <ModalCadastrarConsulta/>
+              <ModalDadosContato/>
             </div>
         );
     }
