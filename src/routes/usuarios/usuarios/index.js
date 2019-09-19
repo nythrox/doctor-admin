@@ -16,7 +16,7 @@ class Usuarios extends Component {
                       <div className="box-btn-top">
                         <a href="usuarios-importar-csv.php" className="btn btn-line icon"><i className="fa fa-upload" />Importar .CSV</a>
                         <a href="usuarios-editar.php" className="btn icon"><i className="fa fa-plus" />Novo</a>
-                        <a href="#!" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
+                        <a href="javascript:0" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
                       </div>
                     </div>
                     {/* mensagem */}

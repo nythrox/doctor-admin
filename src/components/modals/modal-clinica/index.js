@@ -37,7 +37,7 @@ class ModalClinica extends Component {
                       </select>
                     </div>
                     <div className="col-xs-12 col-md-4">
-                      <a href="#!" className="btn" data-toggle="tooltip" data-placement="bottom" data-original-title="Adicionar"><i className="fa fa-plus" /></a>
+                      <a href="javascript:0" className="btn" data-toggle="tooltip" data-placement="bottom" data-original-title="Adicionar"><i className="fa fa-plus" /></a>
                     </div>
                   </div>
                   {/* Lista */}
@@ -60,7 +60,7 @@ class ModalClinica extends Component {
                       </select>
                     </div>
                     <div className="col-xs-12 col-md-4">
-                      <a href="#!" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
+                      <a href="javascript:0" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
                     </div>
                   </div>
                   {/* Lista */}
@@ -83,7 +83,7 @@ class ModalClinica extends Component {
                       </select>
                     </div>
                     <div className="col-xs-12 col-md-4">
-                      <a href="#!" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
+                      <a href="javascript:0" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
                     </div>
                   </div>
                   {/* Lista */}
@@ -106,7 +106,7 @@ class ModalClinica extends Component {
                       </select>
                     </div>
                     <div className="col-xs-12 col-md-4">
-                      <a href="#!" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
+                      <a href="javascript:0" className="btn btn-line" data-toggle="tooltip" data-placement="bottom" data-original-title="Excluir"><i className="fa fa-trash" /></a>
                     </div>
                   </div>
                 </div>

@@ -41,7 +41,7 @@ class TourEditar extends Component {
                                             <label>Imagem <span>*</span></label>
                                             <div class="box-content-crop-img upload-logo">
                                                 <img class="img-responsive" src="assets/img/img-demo-crop.jpg" alt="imagem">
-                                                <a href="#!" class="btn btn-small btn-2 icon pull-left"><i class="fa fa-trash"></i>Excluir</a>
+                                                <a href="javascript:0" class="btn btn-small btn-2 icon pull-left"><i class="fa fa-trash"></i>Excluir</a>
                                             </div>
                                             */}
                         <label>Inserir imagem <span>*</span></label>

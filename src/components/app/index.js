@@ -23,16 +23,36 @@ import Chat from "../../routes/chat/chat";
 import ChatInt from "../../routes/chat/chat-int";
 import TiposDeTratamento from "../../routes/tipos-de-tratamento/tipos-de-tratamento";
 import TiposDeTratamentoEditar from "../../routes/tipos-de-tratamento/tipos-de-tratamento-editar";
+import EditarPerfil from "../../routes/editar-perfil";
+import ConvidarPaciente from "../../routes/convidar-paciente";
+import MinhasConsultas from "../../routes/minhas-consultas/minhas-consultas";
+import MinhasConsultasInt from "../../routes/minhas-consultas/minhas-consultas-int";
+import Error404 from "../error-404";
+import MeusPacientes from "../../routes/meus-pacientes";
+import ConsultasRealizadas from "../../routes/consultas-realizdas/consultas-realizadas";
+import ConsultasRealizadasInt from "../../routes/consultas-realizdas/consultas-realizadas-int";
 
-class App extends Component {
-  render() {
+function App() {
+
     return (
       <Router>
+        <Switch>
         <Route path="/login" exact component={Login} />
         <section class="wrapper active">
           <Route path="/" component={Sidebar} />
           <Route path="/" component={Navbar} />
           <Switch>
+
+            {/* front novo */}
+            <Route exact path="/editar-perfil" component={EditarPerfil} />
+            <Route exact path="/convidar-paciente" component={ConvidarPaciente} />
+            <Route exact path="/minhas-consultas" component={MinhasConsultas} />
+            <Route exact path="/minhas-consultas-int" component={MinhasConsultasInt} />
+            <Route exact path="/meus-pacientes" component={MeusPacientes} />
+            <Route exact path="/consultas-realizadas" component={ConsultasRealizadas} />
+            <Route exact path="/consultas-realizadas-int" component={ConsultasRealizadasInt} />
+
+            {/* front antigo   */}
             <Route exact path="/" component={Home} />
             <Route exact path="/calendario" component={Calendario} />
             <Route exact path="/detalhes-da-consulta" component={DetalhesConsulta} />
@@ -52,13 +72,17 @@ class App extends Component {
             <Route exact path="/template-editar" component={TemplateEditar} />
             <Route exact path="/chat" component={Chat} />
             <Route exact path="/chat-int" component={ChatInt} />
+
+            {/* erro 404 */}
+            <Route path="/" component={Error404} />
           </Switch>
           <Route path="/" component={Footer} />
         </section>
+        </Switch>
         {/* <Route path="/" exact component={Login} /> */}
       </Router>
     );
-  }
+  
 }
 
 export default App;

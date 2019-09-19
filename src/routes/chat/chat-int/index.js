@@ -65,11 +65,11 @@ class ChatInt extends Component {
                       <input type="file" accept="image/jpeg, image/png, image/gif" id="imgChooser" />
                       <div className="box-preview-file">
                         <img className="img-responsive" id="previewImgFile" />
-                        <a href="#!" className="limpar-file"><i className="fa fa-times" /></a>
+                        <a href="javascript:0" className="limpar-file"><i className="fa fa-times" /></a>
                       </div>
                     </div>
                     <textarea className="form-control autoExpand" rows={1} data-min-rows={1} placeholder="Digite uma mensagem..." defaultValue={""} />
-                    <a href="#!" className="btn-icon enviar"><i className="fa fa-paper-plane" /></a>
+                    <a href="javascript:0" className="btn-icon enviar"><i className="fa fa-paper-plane" /></a>
                   </div>
                 </div>
               </div>{/* /box-txt */}

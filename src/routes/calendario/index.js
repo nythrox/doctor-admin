@@ -26,21 +26,21 @@ class Calendario extends Component {
                               <i className="fa fa-star" />
                               <i className="fa fa-star vazio" />
                             </span>
-                            <a href="#!" className="btn-link">(Ver avaliações)</a>
+                            <a href="javascript:0" className="btn-link">(Ver avaliações)</a>
                           </div>
                         </div>
                       </div>
                       <div className="right">
                         <div className="flex no-flex-xs group-btn">
-                          <a href="#!" className="btn-link">Publicar Notícias</a>
+                          <a href="javascript:0" className="btn-link">Publicar Notícias</a>
                           <div className="dropdown btn-dropdown btn-2">
-                            <a href="#!" className="icon"><i className="fa fa-pencil-square-o" />Editar informações</a>
-                            <a href="#!" className="btn dropdown-toggle" data-toggle="dropdown">
+                            <a href="javascript:0" className="icon"><i className="fa fa-pencil-square-o" />Editar informações</a>
+                            <a href="javascript:0" className="btn dropdown-toggle" data-toggle="dropdown">
                               <i className="fa fa-caret-down" />
                             </a>
                             <ul className="dropdown-menu">
-                              <li><a href="#!">Gerenciar usuários</a></li>
-                              <li><a href="#!">Gerenciar pacientes</a></li>
+                              <li><a href="javascript:0">Gerenciar usuários</a></li>
+                              <li><a href="javascript:0">Gerenciar pacientes</a></li>
                               <li role="separator" className="divider" />
                               <li><a href="./">Sair</a></li>
                             </ul>
@@ -98,19 +98,19 @@ class Calendario extends Component {
                         <div className="left">
                           <div className="flex">
                             <div className="btn-nav">
-                              <a href="#!" className="nav-prev"><i className="fa fa-caret-left" /></a>
+                              <a href="javascript:0" className="nav-prev"><i className="fa fa-caret-left" /></a>
                               <span className="divider-btn" />
-                              <a href="#!" className="nav-next"><i className="fa fa-caret-right" /></a>
+                              <a href="javascript:0" className="nav-next"><i className="fa fa-caret-right" /></a>
                             </div>
-                            <a href="#!" className="btn-icon btn-icon-line">
+                            <a href="javascript:0" className="btn-icon btn-icon-line">
                               <i className="fa fa-calendar" />
                             </a>
                             <h4>23 - 30 de Outubro, 2017</h4>
                           </div>
                         </div>
                         <div className="right group-btn">
-                          <a href="#!" className="btn icon"><i className="fa fa-calendar-plus-o" />Agendar Consulta</a>
-                          <a href="#!" className="btn btn-line icon"><i className="fa fa-plus" />Cancelar Consulta</a>
+                          <a href="javascript:0" className="btn icon"><i className="fa fa-calendar-plus-o" />Agendar Consulta</a>
+                          <a href="javascript:0" className="btn btn-line icon"><i className="fa fa-plus" />Cancelar Consulta</a>
                         </div>
                       </div>
                     </div>
@@ -118,13 +118,13 @@ class Calendario extends Component {
                       <thead>
                         <tr>
                           <th className="text-center">&nbsp;</th>
-                          <th className="text-left">Horário <a href="#!" className="btn-ordenar" /></th>
-                          <th className="text-left">N. Consulta <a href="#!" className="btn-ordenar maior" /></th>
-                          <th className="text-left">Paciente <a href="#!" className="btn-ordenar menor" /></th>
+                          <th className="text-left">Horário <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="text-left">N. Consulta <a href="javascript:0" className="btn-ordenar maior" /></th>
+                          <th className="text-left">Paciente <a href="javascript:0" className="btn-ordenar menor" /></th>
                           <th className="text-left">&nbsp;</th>
-                          <th className="text-left">Médico <a href="#!" className="btn-ordenar" /></th>
-                          <th className="text-left">Especialidade <a href="#!" className="btn-ordenar" /></th>
-                          <th className="text-left">Status <a href="#!" className="btn-ordenar" /></th>
+                          <th className="text-left">Médico <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="text-left">Especialidade <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="text-left">Status <a href="javascript:0" className="btn-ordenar" /></th>
                           <th className="text-right">
                             <label>
                               <input type="checkbox" name defaultValue />
@@ -148,7 +148,7 @@ class Calendario extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Horário" className="text-left">10:30 - 11:30</td>
-                          <td data-th="N. Consulta" className="text-left"><a href="#!">#8496996</a></td>
+                          <td data-th="N. Consulta" className="text-left"><a href="javascript:0">#8496996</a></td>
                           <td data-th="Paciente" className="text-left">
                             <div className="avatar">
                               <img className="img-responsive" src={Avatar} alt="Nome" />
@@ -174,7 +174,7 @@ class Calendario extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Horário" className="text-left">10:30 - 11:30</td>
-                          <td data-th="N. Consulta" className="text-left"><a href="#!">#8496996</a></td>
+                          <td data-th="N. Consulta" className="text-left"><a href="javascript:0">#8496996</a></td>
                           <td data-th="Paciente" className="text-left">
                             <div className="avatar">
                               <img className="img-responsive" src={Avatar} alt="Nome" />
@@ -186,12 +186,12 @@ class Calendario extends Component {
                           <td data-th="Especialidade" className="text-left">Oftalmologia</td>
                           <td data-th="Status" className="text-left">
                             <div className="dropdown btn-dropdown btn-small btn-2">
-                              <a href="#!" className="icon"><i className="fa fa-calendar-check-o" />Confirmar</a>
-                              <a href="#!" className="btn dropdown-toggle" data-toggle="dropdown">
+                              <a href="javascript:0" className="icon"><i className="fa fa-calendar-check-o" />Confirmar</a>
+                              <a href="javascript:0" className="btn dropdown-toggle" data-toggle="dropdown">
                                 <i className="fa fa-caret-down" />
                               </a>
                               <ul className="dropdown-menu">
-                                <li><a href="#!" className="icon"><i className="fa fa-calendar-times-o" />Cancelar</a></li>
+                                <li><a href="javascript:0" className="icon"><i className="fa fa-calendar-times-o" />Cancelar</a></li>
                                 <li role="separator" className="divider" />
                                 <li><a href="./" className="icon"><i className="fa fa-calendar" />Reagendar</a></li>
                               </ul>
@@ -208,7 +208,7 @@ class Calendario extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Horário" className="text-left">10:30 - 11:30</td>
-                          <td data-th="N. Consulta" className="text-left"><a href="#!">#8496996</a></td>
+                          <td data-th="N. Consulta" className="text-left"><a href="javascript:0">#8496996</a></td>
                           <td data-th="Paciente" className="text-left">
                             <div className="avatar">
                               <img className="img-responsive" src={Avatar} alt="Nome" />
@@ -238,37 +238,37 @@ class Calendario extends Component {
                         <div className="item status status-1">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Confirmada</a>
+                            <a href="javascript:0" className="nome">Confirmada</a>
                           </div>
                         </div>
                         <div className="item status status-2">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Pós Consulta</a>
+                            <a href="javascript:0" className="nome">Pós Consulta</a>
                           </div>
                         </div>
                         <div className="item status status-3">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Em Consulta</a>
+                            <a href="javascript:0" className="nome">Em Consulta</a>
                           </div>
                         </div>
                         <div className="item status status-4">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Consulta Finalizada</a>
+                            <a href="javascript:0" className="nome">Consulta Finalizada</a>
                           </div>
                         </div>
                         <div className="item status status-5">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Consulta Reagendada</a>
+                            <a href="javascript:0" className="nome">Consulta Reagendada</a>
                           </div>
                         </div>
                         <div className="item status status-6">
                           <div className="flex">
                             <i className="fa fa-circle" />
-                            <a href="#!" className="nome">Consulta Cancelada</a>
+                            <a href="javascript:0" className="nome">Consulta Cancelada</a>
                           </div>
                         </div>
                       </div>

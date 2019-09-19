@@ -21,8 +21,8 @@ class Gerenciamento extends Component {
                       </div>
                       <div className="right">
                         <div className="flex group-btn">
-                          <a href="#!" className="btn icon"><i className="fa fa-user-plus" />Adicionar a Lista</a>
-                          <a href="#!" className="btn btn-line icon"><i className="fa fa-user-times" />Remover da Lista</a>
+                          <a href="javascript:0" className="btn icon"><i className="fa fa-user-plus" />Adicionar a Lista</a>
+                          <a href="javascript:0" className="btn btn-line icon"><i className="fa fa-user-times" />Remover da Lista</a>
                         </div>
                       </div>
                     </div>
@@ -32,7 +32,7 @@ class Gerenciamento extends Component {
                       <div className="right">
                         <div className="box-search">
                           <input type="text" className="form-control" placeholder="Busca na lista" />
-                          <a href="#!" className="icon"><i className="fa fa-search" /></a>
+                          <a href="javascript:0" className="icon"><i className="fa fa-search" /></a>
                         </div>
                       </div>
                     </div>
@@ -40,10 +40,10 @@ class Gerenciamento extends Component {
                       <thead>
                         <tr>
                           <th className="text-center">&nbsp;</th>
-                          <th className="col-xs-3 text-left">Usuário <a href="#!" className="btn-ordenar" /></th>
-                          <th className="col-xs-2 text-left">E-mail <a href="#!" className="btn-ordenar" /></th>
-                          <th className="col-xs-2 text-left">Grupo <a href="#!" className="btn-ordenar" /></th>
-                          <th className="col-xs-3 text-left">Status <a href="#!" className="btn-ordenar" /></th>
+                          <th className="col-xs-3 text-left">Usuário <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="col-xs-2 text-left">E-mail <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="col-xs-2 text-left">Grupo <a href="javascript:0" className="btn-ordenar" /></th>
+                          <th className="col-xs-3 text-left">Status <a href="javascript:0" className="btn-ordenar" /></th>
                           <th className="col-xs-2 text-right">&nbsp;</th>
                           <th className="text-right">
                             <label>
@@ -58,7 +58,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Usuário" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Dr. João Antunes</strong>
@@ -70,14 +70,14 @@ class Gerenciamento extends Component {
                           <td data-th="Status" className="text-left">Ativo desde 12/05/2017</td>
                           <td data-th="Check" className="text-right">
                             <div className="dropdown btn-dropdown btn-small btn-line">
-                              <a href="#!" className="icon"><i className="fa fa-check" />Em minha lista</a>
-                              <a href="#!" className="btn dropdown-toggle" data-toggle="dropdown">
+                              <a href="javascript:0" className="icon"><i className="fa fa-check" />Em minha lista</a>
+                              <a href="javascript:0" className="btn dropdown-toggle" data-toggle="dropdown">
                                 <i className="fa fa-caret-down" />
                               </a>
                               <ul className="dropdown-menu">
-                                <li><a href="#!">Gerenciar acesso</a></li>
+                                <li><a href="javascript:0">Gerenciar acesso</a></li>
                                 <li role="separator" className="divider" />
-                                <li><a href="#!">Excluir de minha lista</a></li>
+                                <li><a href="javascript:0">Excluir de minha lista</a></li>
                               </ul>
                             </div>
                           </td>
@@ -92,7 +92,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Usuário" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Dr. João Antunes</strong>
@@ -104,14 +104,14 @@ class Gerenciamento extends Component {
                           <td data-th="Status" className="text-left">Ativo desde 12/05/2017</td>
                           <td data-th="Check" className="text-right">
                             <div className="dropdown btn-dropdown btn-small btn-line">
-                              <a href="#!" className="icon"><i className="fa fa-check" />Em minha lista</a>
-                              <a href="#!" className="btn dropdown-toggle" data-toggle="dropdown">
+                              <a href="javascript:0" className="icon"><i className="fa fa-check" />Em minha lista</a>
+                              <a href="javascript:0" className="btn dropdown-toggle" data-toggle="dropdown">
                                 <i className="fa fa-caret-down" />
                               </a>
                               <ul className="dropdown-menu">
-                                <li><a href="#!">Gerenciar acesso</a></li>
+                                <li><a href="javascript:0">Gerenciar acesso</a></li>
                                 <li role="separator" className="divider" />
-                                <li><a href="#!">Excluir de minha lista</a></li>
+                                <li><a href="javascript:0">Excluir de minha lista</a></li>
                               </ul>
                             </div>
                           </td>
@@ -126,7 +126,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Usuário" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Dr. João Antunes</strong>
@@ -138,14 +138,14 @@ class Gerenciamento extends Component {
                           <td data-th="Status" className="text-left">Ativo desde 12/05/2017</td>
                           <td data-th="Check" className="text-right">
                             <div className="dropdown btn-dropdown btn-small btn-line">
-                              <a href="#!" className="icon"><i className="fa fa-check" />Em minha lista</a>
-                              <a href="#!" className="btn dropdown-toggle" data-toggle="dropdown">
+                              <a href="javascript:0" className="icon"><i className="fa fa-check" />Em minha lista</a>
+                              <a href="javascript:0" className="btn dropdown-toggle" data-toggle="dropdown">
                                 <i className="fa fa-caret-down" />
                               </a>
                               <ul className="dropdown-menu">
-                                <li><a href="#!">Gerenciar acesso</a></li>
+                                <li><a href="javascript:0">Gerenciar acesso</a></li>
                                 <li role="separator" className="divider" />
-                                <li><a href="#!">Excluir de minha lista</a></li>
+                                <li><a href="javascript:0">Excluir de minha lista</a></li>
                               </ul>
                             </div>
                           </td>
@@ -164,7 +164,7 @@ class Gerenciamento extends Component {
                       <div className="right">
                         <div className="box-search">
                           <input type="text" className="form-control" placeholder="Busca na lista" />
-                          <a href="#!" className="icon"><i className="fa fa-search" /></a>
+                          <a href="javascript:0" className="icon"><i className="fa fa-search" /></a>
                         </div>
                       </div>
                     </div>
@@ -172,10 +172,10 @@ class Gerenciamento extends Component {
                       <thead>
                         <tr>
                           <th className="text-center">&nbsp;</th>
-                          <th className="col-xs-4 text-left">Paciente <a href="#!" className="btn-ordenar" /></th>
+                          <th className="col-xs-4 text-left">Paciente <a href="javascript:0" className="btn-ordenar" /></th>
                           <th className="col-xs-2 text-right">&nbsp;</th>
                           <th className="col-xs-2 text-right">&nbsp;</th>
-                          <th className="col-xs-4 text-left">CPF <a href="#!" className="btn-ordenar" /></th>
+                          <th className="col-xs-4 text-left">CPF <a href="javascript:0" className="btn-ordenar" /></th>
                           <th className="text-right">
                             <label>
                               <input type="checkbox" name defaultValue />
@@ -189,7 +189,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Paciente" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Juliana Cunha</strong>
@@ -210,7 +210,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Paciente" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Juliana Cunha</strong>
@@ -231,7 +231,7 @@ class Gerenciamento extends Component {
                           <td className="visible-xs visible-sm">Item</td>
                           <td className="text-center nopadding box-move"><span className="btn-move" /></td>
                           <td data-th="Paciente" className="text-left">
-                            <a href="#!">
+                            <a href="javascript:0">
                               <div className="avatar">
                                 <img className="img-responsive" src={Avatar} alt="Nome" />
                                 <strong>Juliana Cunha</strong>

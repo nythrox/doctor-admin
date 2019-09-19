@@ -5,18 +5,18 @@ class PaginacaoTabela extends Component {
         return(      <div className="flex-space no-flex-xs">
         <ul className="pagination">
           <li className="page-item disabled">
-            <a className="page-link" href="#" tabIndex={-1} aria-label="Previous">
+            <a className="page-link" href="javascript:0" tabIndex={-1} aria-label="Previous">
               <span aria-hidden="true">«</span>
             </a>
           </li>
           <li className="page-item active">
-            <a className="page-link" href="#">1 <span className="sr-only">(current)</span></a>
+            <a className="page-link" href="javascript:0">1 <span className="sr-only">(current)</span></a>
           </li>
-          <li className="page-item"><a className="page-link" href="#">2</a></li>
-          <li className="page-item"><a className="page-link" href="#">3</a></li>
-          <li className="page-item"><a className="page-link" href="#">4</a></li>
+          <li className="page-item"><a className="page-link" href="javascript:0">2</a></li>
+          <li className="page-item"><a className="page-link" href="javascript:0">3</a></li>
+          <li className="page-item"><a className="page-link" href="javascript:0">4</a></li>
           <li className="page-item">
-            <a className="page-link" href="#" aria-label="Next">
+            <a className="page-link" href="javascript:0" aria-label="Next">
               <span aria-hidden="true">»</span>
             </a>
           </li>

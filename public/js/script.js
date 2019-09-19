@@ -1,4 +1,6 @@
-// Calendário
+
+window.mount = () => {
+console.log("wish u would work xx")
 jQuery(function($){
     $.datepicker.regional['pt-BR'] = {
         closeText: 'Fechar',
@@ -171,22 +173,24 @@ tinymce.init({
 });
 
 // Menu active class
-$(function(){
-    var url = window.location.pathname;  
-    var activePage = url.substring(url.lastIndexOf('/')+1);
-    $('.dropdown-menu li a').each(function(){  
-        var currentPage = this.href.substring(this.href.lastIndexOf('/')+1);
+// $(function(){
+//     var url = window.location.pathname;  
+//     var activePage = url.substring(url.lastIndexOf('/')+1);
+//     $('.dropdown-menu li a').each(function(){  
+//         var currentPage = this.href.substring(this.href.lastIndexOf('/')+1);
+//         if (activePage == currentPage) {
+//             $(this).parent().addClass('active'); 
+//         } 
+//     });
+// });
 
-        if (activePage == currentPage) {
-            $(this).parent().addClass('active'); 
-        } 
+function sidebarOpenSubmenu(){
+    console.log("aaaa");
+    $(document).ready(function() {
+        $(".dropdown-menu li.active" ).closest('.dropdown').addClass('open');
     });
-});
-
+}
 // Deixar aberto o submenu ativo
-$(document).ready(function() {
-    $(".dropdown-menu li.active" ).closest('.dropdown').addClass('open');
-});
 
 // Textarea "autoExpand"
 $(document)
@@ -262,3 +266,27 @@ $(".js-add-prescricao").click(function(){
 $(".js-add-lembrete").click(function(){
     $("#addLembrete").show()
 });
+
+
+$(".js-card-recusar").on('click', function() {
+    $(this).blur();
+    swal({
+        type: 'warning',
+        title: "Atenção",
+        text: "Deseja realmente recusar está consulta?",
+        showCancelButton: true,
+        confirmButtonText: 'Sim',
+        cancelButtonText: 'Não'
+
+    }).then((result) => {
+        if (result.value) {
+            $(this).closest('.col-xs-12').find('.card').addClass("js-desabled");
+            $(this).blur();
+        }
+    })
+});
+
+
+}
+
+window.mount();

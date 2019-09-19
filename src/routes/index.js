@@ -13,7 +13,7 @@ class Chat extends Component {
             <h1>Chat</h1>
             <div className="box-btn-top">
               <a href="chat-int.php" className="btn icon"><i className="fa fa-user-plus" />Nova conversa</a>
-              <a href="#!" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
+              <a href="javascript:0" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
             </div>
           </div>
           <form action autoComplete="off">
@@ -21,7 +21,7 @@ class Chat extends Component {
               <div className="right">
                 <div className="box-search">
                   <input type="text" className="form-control" placeholder="Busca na lista" />
-                  <a href="#!" className="icon"><i className="fa fa-search" /></a>
+                  <a href="javascript:0" className="icon"><i className="fa fa-search" /></a>
                 </div>
               </div>
             </div>
@@ -29,9 +29,9 @@ class Chat extends Component {
               <thead>
                 <tr>
                   <th className="text-center">&nbsp;</th>
-                  <th className="col-xs-3 text-left">Usuário <a href="#!" className="btn-ordenar" /></th>
-                  <th className="col-xs-2 text-left">E-mail <a href="#!" className="btn-ordenar" /></th>
-                  <th className="col-xs-7 text-left">Conversa <a href="#!" className="btn-ordenar" /></th>
+                  <th className="col-xs-3 text-left">Usuário <a href="javascript:0" className="btn-ordenar" /></th>
+                  <th className="col-xs-2 text-left">E-mail <a href="javascript:0" className="btn-ordenar" /></th>
+                  <th className="col-xs-7 text-left">Conversa <a href="javascript:0" className="btn-ordenar" /></th>
                   <th className="text-right">
                     <label>
                       <input type="checkbox" name defaultValue />

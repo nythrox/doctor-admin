@@ -38,29 +38,29 @@ class TemplateEditar extends Component {
                             <thead>
                               <tr>
                                 <th className="text-center">&nbsp;</th>
-                                <th className="col-xs-4 col-lg-5 text-left">Medicamento <a href="#!" className="btn-ordenar" /></th>
+                                <th className="col-xs-4 col-lg-5 text-left">Medicamento <a href="javascript:0" className="btn-ordenar" /></th>
                                 <th className="col-xs-8 col-lg-7 text-left">Observação</th>
-                                <th className="text-right"><a href="#!" className="btn btn-small-header">Limpar tudo</a></th>
+                                <th className="text-right"><a href="javascript:0" className="btn btn-small-header">Limpar tudo</a></th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <td className="visible-xs visible-sm">Item</td>
-                                <td className="text-center"><a href="#!"><i className="fa fa-pencil-square-o" /></a></td>
-                                <td data-th="Medicamento" className="text-left"><a href="#!">Paracetamol</a></td>
+                                <td className="text-center"><a href="javascript:0"><i className="fa fa-pencil-square-o" /></a></td>
+                                <td data-th="Medicamento" className="text-left"><a href="javascript:0">Paracetamol</a></td>
                                 <td data-th="Observação" className="text-left">Tomar 1 comprimido a cada 1 hora durante 5 horas</td>
-                                <td data-th="Excluir" className="text-right"><a href="#!"><i className="fa fa-trash" /></a></td>
+                                <td data-th="Excluir" className="text-right"><a href="javascript:0"><i className="fa fa-trash" /></a></td>
                               </tr>
                               <tr>
                                 <td className="visible-xs visible-sm">Item</td>
-                                <td className="text-center"><a href="#!"><i className="fa fa-pencil-square-o" /></a></td>
-                                <td data-th="Medicamento" className="text-left"><a href="#!">Paracetamol</a></td>
+                                <td className="text-center"><a href="javascript:0"><i className="fa fa-pencil-square-o" /></a></td>
+                                <td data-th="Medicamento" className="text-left"><a href="javascript:0">Paracetamol</a></td>
                                 <td data-th="Observação" className="text-left">Tomar 1 comprimido a cada 1 hora durante 5 horas</td>
-                                <td data-th="Excluir" className="text-right"><a href="#!"><i className="fa fa-trash" /></a></td>
+                                <td data-th="Excluir" className="text-right"><a href="javascript:0"><i className="fa fa-trash" /></a></td>
                               </tr>
                               <tr>
                                 <td colSpan={4} className="text-center clean">
-                                  <a href="#!" className="btn-link icon js-add-prescricao"><i className="fa fa-plus" />Adicionar Prescrição</a>
+                                  <a href="javascript:0" className="btn-link icon js-add-prescricao"><i className="fa fa-plus" />Adicionar Prescrição</a>
                                 </td>
                               </tr>
                               {/* box js prescrição */}
@@ -76,7 +76,7 @@ class TemplateEditar extends Component {
                                         </div>
                                         <div className="col-xs-12 col-md-4">
                                           <div className="form-group text-right">
-                                            <a href="#!" className="btn-link icon"><i className="fa fa-plus" />Ver prescrições salvas</a>
+                                            <a href="javascript:0" className="btn-link icon"><i className="fa fa-plus" />Ver prescrições salvas</a>
                                           </div>
                                         </div>
                                       </div>
@@ -102,8 +102,8 @@ class TemplateEditar extends Component {
                                       </div>
                                       <div className="col-xs-12">
                                         <div className="group-btn right">
-                                          <a href="#!" className="btn btn-small btn-line icon"><i className="fa fa-plus" />Salvar e Adicionar</a>
-                                          <a href="#!" className="btn btn-small icon"><i className="fa fa-plus" />Adicionar Prescrição</a>
+                                          <a href="javascript:0" className="btn btn-small btn-line icon"><i className="fa fa-plus" />Salvar e Adicionar</a>
+                                          <a href="javascript:0" className="btn btn-small icon"><i className="fa fa-plus" />Adicionar Prescrição</a>
                                         </div>
                                       </div>
                                     </div>
@@ -124,34 +124,34 @@ class TemplateEditar extends Component {
                               <tr>
                                 <th className="text-center">&nbsp;</th>
                                 <th className="col-xs-12 text-left">Lembrete</th>
-                                <th className="text-right"><a href="#!" className="btn btn-small-header">Limpar tudo</a></th>
+                                <th className="text-right"><a href="javascript:0" className="btn btn-small-header">Limpar tudo</a></th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <td colSpan={4} className="text-center">
-                                  <a href="#!" className="btn-link btn-link-small icon">Ver antigos</a>
+                                  <a href="javascript:0" className="btn-link btn-link-small icon">Ver antigos</a>
                                 </td>
                               </tr>
                               <tr>
-                                <td className="text-center"><a href="#!"><i className="fa fa-pencil-square-o" /></a></td>
+                                <td className="text-center"><a href="javascript:0"><i className="fa fa-pencil-square-o" /></a></td>
                                 <td data-th="Lembrete" className="text-left">
                                   Tomar 1 comprimido a cada 1 hora durante 5 horas<br />
                                   <legend>27/10/2017 às 17:00 até 27/12/2017</legend>
                                 </td>
-                                <td data-th="Excluir" className="text-right"><a href="#!"><i className="fa fa-trash" /></a></td>
+                                <td data-th="Excluir" className="text-right"><a href="javascript:0"><i className="fa fa-trash" /></a></td>
                               </tr>
                               <tr>
-                                <td className="text-center"><a href="#!"><i className="fa fa-pencil-square-o" /></a></td>
+                                <td className="text-center"><a href="javascript:0"><i className="fa fa-pencil-square-o" /></a></td>
                                 <td data-th="Lembrete" className="text-left">
                                   Tomar 1 comprimido a cada 1 hora durante 5 horas<br />
                                   <legend>27/10/2017 às 17:00 até 27/12/2017</legend>
                                 </td>
-                                <td data-th="Excluir" className="text-right"><a href="#!"><i className="fa fa-trash" /></a></td>
+                                <td data-th="Excluir" className="text-right"><a href="javascript:0"><i className="fa fa-trash" /></a></td>
                               </tr>
                               <tr>
                                 <td colSpan={4} className="text-center clean">
-                                  <a href="#!" className="btn-link icon js-add-lembrete"><i className="fa fa-plus" />Adicionar Lembrete</a>
+                                  <a href="javascript:0" className="btn-link icon js-add-lembrete"><i className="fa fa-plus" />Adicionar Lembrete</a>
                                 </td>
                               </tr>
                               {/* box js lembrete */}
@@ -168,7 +168,7 @@ class TemplateEditar extends Component {
                                           </div>
                                           <div className="col-xs-12 col-md-4">
                                             <div className="form-group text-right">
-                                              <a href="#!" className="btn-link icon"><i className="fa fa-plus" />Ver prescrições salvas</a>
+                                              <a href="javascript:0" className="btn-link icon"><i className="fa fa-plus" />Ver prescrições salvas</a>
                                             </div>
                                           </div>
                                         </div>
@@ -194,8 +194,8 @@ class TemplateEditar extends Component {
                                         </div>
                                         <div className="col-xs-12">
                                           <div className="group-btn right">
-                                            <a href="#!" className="btn btn-small btn-line icon"><i className="fa fa-plus" />Salvar e Adicionar</a>
-                                            <a href="#!" className="btn btn-small icon"><i className="fa fa-plus" />Adicionar Prescrição</a>
+                                            <a href="javascript:0" className="btn btn-small btn-line icon"><i className="fa fa-plus" />Salvar e Adicionar</a>
+                                            <a href="javascript:0" className="btn btn-small icon"><i className="fa fa-plus" />Adicionar Prescrição</a>
                                           </div>
                                         </div>
                                       </div>

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Avatar from '../../assets/img/avatar.jpg';
 class Navbar extends Component {
-
     
-
     render(){
         return (
           <header className="header-top">
@@ -17,16 +15,16 @@ class Navbar extends Component {
                 <div className="flex-end no-flex-sm">
                   <div className="box-search">
                     <input type="text" className="form-control" placeholder="Busca" />
-                    <a href="#!" className="icon"><i className="fa fa-search" /></a>
+                  <a href="javascript:0" className="icon"><i className="fa fa-search" /></a>
                   </div>
                   <div className="menu-user">
                     <div className="dropdown">
-                      <a href="#!" className="dropdown-toggle btn-avatar" id="dropdownMenuUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <a href="javascript:0" className="dropdown-toggle btn-avatar" id="dropdownMenuUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <img src={Avatar} alt="Avatar" />André<i className="fa fa-caret-down" />
                       </a>
-                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuUser">
-                        <li><a href="#!">Editar perfil</a></li>
-                        <li><a href="#!">Mudar senha</a></li>
+                      <ul className="dropdown-menu" >
+                        <li><a href="javascript:0">Editar perfil</a></li>
+                        <li><a href="javascript:0">Mudar senha</a></li>
                         <li role="separator" className="divider" />
                         <li><a href="./">Sair</a></li>
                       </ul>
@@ -35,13 +33,13 @@ class Navbar extends Component {
                   <nav className="nav navbar-nav group-icon">
                     <li className="separar" />
                     <li className="icon-chat">
-                      <a href="#!" className="group-badge">
+                      <a href="javascript:0" className="group-badge">
                         <i className="fa fa-commenting" />
                         <span className="badge">+99</span>
                       </a>
                     </li>
-                    <li><a href="#!" target="blank"><i className="fa fa-bell" /></a></li>
-                    <li><a href="#!"><i className="fa fa-cog" /></a></li>
+                    <li><a href="javascript:0" target="blank"><i className="fa fa-bell" /></a></li>
+                    <li><a href="javascript:0"><i className="fa fa-cog" /></a></li>
                   </nav>
                 </div>
               </div>

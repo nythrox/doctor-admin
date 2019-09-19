@@ -32,10 +32,10 @@ class UsuariosImportarCsvInt extends Component {
                               </select>
                               <div className="group-btn">
                                 <div className="col-xs-6 nopadding">
-                                  <a href="#!" className="btn btn-2 btn-small btn-block">Salvar</a>
+                                  <a href="javascript:0" className="btn btn-2 btn-small btn-block">Salvar</a>
                                 </div>
                                 <div className="col-xs-6 nopadding">
-                                  <a href="#!" className="btn-link">Cancelar</a>
+                                  <a href="javascript:0" className="btn-link">Cancelar</a>
                                 </div>
                               </div>
                             </div>
@@ -54,8 +54,8 @@ class UsuariosImportarCsvInt extends Component {
                               <h6>E-MAIL</h6>
                               <p>Nenhuma coluna especificada</p>
                               <div className="group-btn">
-                                <a href="#!" className="btn-link">Editar</a>
-                                <a href="#!" className="btn-link">Ignorar</a>
+                                <a href="javascript:0" className="btn-link">Editar</a>
+                                <a href="javascript:0" className="btn-link">Ignorar</a>
                               </div>
                             </div>
                             <div className="box-bottom">
@@ -73,8 +73,8 @@ class UsuariosImportarCsvInt extends Component {
                               <h6>SEXO</h6>
                               <p>Nenhuma coluna especificada</p>
                               <div className="group-btn">
-                                <a href="#!" className="btn-link">Editar</a>
-                                <a href="#!" className="btn-link">Ignorar</a>
+                                <a href="javascript:0" className="btn-link">Editar</a>
+                                <a href="javascript:0" className="btn-link">Ignorar</a>
                               </div>
                             </div>
                             <div className="box-bottom">
@@ -92,8 +92,8 @@ class UsuariosImportarCsvInt extends Component {
                               <h6>ANO</h6>
                               <p>Nenhuma coluna especificada</p>
                               <div className="group-btn">
-                                <a href="#!" className="btn-link">Editar</a>
-                                <a href="#!" className="btn-link">Ignorar</a>
+                                <a href="javascript:0" className="btn-link">Editar</a>
+                                <a href="javascript:0" className="btn-link">Ignorar</a>
                               </div>
                             </div>
                             <div className="box-bottom">
@@ -111,7 +111,7 @@ class UsuariosImportarCsvInt extends Component {
                               <h6>CIDADE</h6>
                               <p>Não será importado</p>
                               <div className="group-btn">
-                                <a href="#!" className="btn-link">Editar</a>
+                                <a href="javascript:0" className="btn-link">Editar</a>
                               </div>
                             </div>
                             <div className="box-bottom">
@@ -156,7 +156,7 @@ class UsuariosImportarCsvInt extends Component {
                       </div>
                       <div className="col-xs-12">
                         <div className="form-group margin-top-30">
-                          <a href="#!" className="btn btn-small">Importar »</a>
+                          <a href="javascript:0" className="btn btn-small">Importar »</a>
                         </div>
                         <div className="form-group">
                           <div className="box-carregando" style={{display: 'block'}}>

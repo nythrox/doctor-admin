@@ -13,7 +13,7 @@ class Login extends Component {
                 <div className="row">
                   <div className="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                     <div className="box-item margin-60">
-                      <a href="#!" target="blank" className="logo"><img className="img-responsive" src={Logo} alt="Logo" /></a>
+                      <a href="javascript:0" target="blank" className="logo"><img className="img-responsive" src={Logo} alt="Logo" /></a>
                       <h4 className="text-center animated fadeInDown">entrar</h4>
                       <form action="home.php" method="POST" className="animated fadeIn">
                         <div className="form-group">
@@ -23,7 +23,7 @@ class Login extends Component {
                           <input type="password" name="password" className="form-control" id placeholder="senha" />
                         </div>
                         <button className="btn btn-block icon"><i className="fa fa-sign-in" /> Entrar</button>
-                        <a href="#!" className="esqueceu-senha">Esqueci a senha »</a>
+                        <a href="javascript:0" className="esqueceu-senha">Esqueci a senha »</a>
                       </form>
                     </div>
                   </div>

@@ -42,7 +42,7 @@ class TiposDeTratamentoEditar extends Component {
                           <label>Imagem</label>
                           <div className="box-content-crop-img upload-logo">
                             <img className="img-responsive" src={DemoCrop} alt="imagem" />
-                            <a href="#!" className="btn btn-small btn-2 icon pull-left"><i className="fa fa-trash" />Excluir</a>
+                            <a href="javascript:0" className="btn btn-small btn-2 icon pull-left"><i className="fa fa-trash" />Excluir</a>
                           </div>
                           {/*
                                               <label>Inserir imagem</label>

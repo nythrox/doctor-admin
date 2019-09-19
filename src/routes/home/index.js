@@ -20,11 +20,11 @@ class Home extends Component {
                 <thead>
                   <tr>
                     <th className="text-center">&nbsp;</th>
-                    <th className="col-xs-2 text-left">Clínica <a href="#!" className="btn-ordenar" /></th>
-                    <th className="col-xs-4 text-left">Endereço <a href="#!" className="btn-ordenar maior" /></th>
-                    <th className="col-xs-2 text-left">CNPJ <a href="#!" className="btn-ordenar menor" /></th>
-                    <th className="col-xs-2 text-left">Avaliação <a href="#!" className="btn-ordenar" /></th>
-                    <th className="col-xs-2 text-left">Gestor <a href="#!" className="btn-ordenar" /></th>
+                    <th className="col-xs-2 text-left">Clínica <a href="javascript:0" className="btn-ordenar" /></th>
+                    <th className="col-xs-4 text-left">Endereço <a href="javascript:0" className="btn-ordenar maior" /></th>
+                    <th className="col-xs-2 text-left">CNPJ <a href="javascript:0" className="btn-ordenar menor" /></th>
+                    <th className="col-xs-2 text-left">Avaliação <a href="javascript:0" className="btn-ordenar" /></th>
+                    <th className="col-xs-2 text-left">Gestor <a href="javascript:0" className="btn-ordenar" /></th>
                     <th className="text-right">
                       <label>
                         <input type="checkbox" name defaultValue />

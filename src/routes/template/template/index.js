@@ -12,8 +12,8 @@ class Template extends Component {
               <div className="title flex-space no-flex-sm">
                 <h1>Template</h1>
                 <div className="box-btn-top">
-                  <a href="#!" className="btn icon"><i className="fa fa-plus" />Novo</a>
-                  <a href="#!" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
+                  <a href="javascript:0" className="btn icon"><i className="fa fa-plus" />Novo</a>
+                  <a href="javascript:0" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
                 </div>
               </div>
               <form action autoComplete="off">
@@ -21,7 +21,7 @@ class Template extends Component {
                   <div className="right">
                     <div className="box-search">
                       <input type="text" className="form-control" placeholder="Busca na lista" />
-                      <a href="#!" className="icon"><i className="fa fa-search" /></a>
+                      <a href="javascript:0" className="icon"><i className="fa fa-search" /></a>
                     </div>
                   </div>
                 </div>

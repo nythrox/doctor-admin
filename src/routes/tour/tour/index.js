@@ -11,8 +11,8 @@ class Tour extends Component {
           <div className="title flex-space no-flex-sm">
             <h1>Tour</h1>
             <div className="box-btn-top">
-              <a href="#!" className="btn icon"><i className="fa fa-plus" />Novo</a>
-              <a href="#!" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
+              <a href="javascript:0" className="btn icon"><i className="fa fa-plus" />Novo</a>
+              <a href="javascript:0" className="btn icon"><i className="fa fa-trash" />Excluir selecionados</a>
             </div>
           </div>
           <form action autoComplete="off">
